@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #3B82F6
+}
+.container {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+   
+}
+.heading{
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.para {
+    font-size: x-large;
+}
+
+label {
+    font-weight: bold;
+    margin: 0.7rem;
+}
+
+input {
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    width: 15%;
+    margin: 0.7rem;
+    padding: 0.6rem;
+    outline: black;
+}
+
+#check-button {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 8vw;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.notes-table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.notes-table caption {
+    margin: 1rem auto;
+    font-size: larger;
+    font-weight: 700;
+}
+
+th,td {
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+    width: 0%;
+    padding: 0.5rem;
+}
